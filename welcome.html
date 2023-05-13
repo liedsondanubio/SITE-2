@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vinda</title>
+
+    <style>
+        @charset  "UTF-8";
+        @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&family=Playfair+Display:ital@1&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&family=Playfair+Display:wght@500&display=swap');
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        :root {
+            --cor0:#021859;
+            --cor01: #1F3473;
+            --cor02:#3A5D8C;
+            --cor03: #D9A714;
+            --cor04: #BF7E04;
+        }
+
+        body {
+            background-color: rgba(255, 228, 196, 0.219);
+            
+            
+        }
+
+        header {
+            background-color: var(--cor03);
+            text-align: center;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.658);
+        }
+
+        main {
+            width: 600px;
+            left: 600px;
+            position: absolute;
+            top: 50%;
+            left: 36%;
+            margin: -25px 0px 0px -25px;
+            text-align: center;           
+        } 
+        
+        main h1 {
+            color: #BF7E04;
+            margin-bottom: 10px;
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 40px;
+        }
+
+        main p {
+            color: #BF7E04;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 19px;
+        }
+
+        main button{
+            background-color: var(--cor0);
+            margin-top: 25px;
+            border-radius: 10%;
+            border: var(--cor04);
+            padding: 20px 20px;
+            color: #BF7E04;
+            font-family: 'Playfair Display', serif;
+            font-size: 19px;
+
+
+            transition: all 1s;
+            cursor: pointer;
+        }
+
+        main button:hover{
+            background-color: var(--cor04);
+            color: white;
+            -webkit-transform: scale(.5);
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="imagens/coracao.png.png" alt="">
+    </header>
+
+    <main>
+        <h1>Olá! Bem-vinda a Noite Estrelada.</h1>
+        <p>Espero que goste de embarcar nessa aventura onde você irá descobrir um pouco da história de Van Gogh, é mentirinha eu mudei de ideia (eu sei que ele é seu pintor favorito, bobinha).</p>
+        <a href="history.html" target="_blank"><button>Embarque</button></a>
+    </main>
+</body>
+</html>
